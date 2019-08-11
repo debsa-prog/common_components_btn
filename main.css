@@ -1,11 +1,29 @@
 *{
-  box-sizing: border-box
+  box-sizing: border-box;
 }
+body{
+  background-color: beige;
+}
+
+section{
+  max-width: 50%;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+h3{
+  font: 700 2rem/2rem Arial, sans-serif;
+}
+
 .btn{
   display: inline-block;
   text-decoration: none;
-  padding: 6px 12px;
-  margin-bottom: 10px;
+  padding: .8rem 1rem;
+  margin: .6rem;
   font: 1rem/1.5 Arial, sans-serif;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -75,4 +93,24 @@
 .btn-danger:hover {
   background-color: #c9302c;
   border-color: #ac2925;
+}
+
+/* === Flat buttons */
+.btn-nav{
+  display: inline-block;
+  text-decoration: none;
+  padding: .8rem 1rem;
+  margin: 1rem;
+  font: 1rem/1.5 Arial, sans-serif;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: black;
+}
+
+.btn-nav:hover{
+  color: white;
+  background-color: black;
+  transition: background-color .1s all ease-in-out;
 }
