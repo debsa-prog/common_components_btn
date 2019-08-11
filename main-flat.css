@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: .8rem 1rem;
+  font: 1rem/1.5 Arial, sans-serif;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: black;
+}
+
+.btn:hover{
+  color: white;
+  background-color: black;
+  transition: .1s all ease-in-out;
+}
